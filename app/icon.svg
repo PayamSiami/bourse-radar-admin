@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 649" fill="none">
+  <title>Market growth and trading chart</title>
+  <desc>Green speedometer with an upward needle beside rising green and white candlesticks.</desc>
+  <g stroke="#00C58A" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="34" d="M174 565 A294 294 0 1 1 542 119"/>
+    <path stroke-width="31" d="M199 480 A209 209 0 0 1 401 132"/>
+    <path stroke-width="31" d="M260 420 A120 120 0 0 1 355 207"/>
+  </g>
+  <path fill="#00C58A" d="M320 307 465 73 542 119 339 334Z"/>
+  <circle cx="321" cy="330" r="34" fill="#00C58A"/>
+  <g stroke="#061B43" stroke-width="16" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M223 483v157"/><path d="M204 510h42v96h-42z" fill="#F8FAFC"/>
+    <path d="M303 438v170"/><path d="M275 464h55v113h-55z" fill="#00C58A"/>
+    <path d="M388 385v188"/><path d="M356 416h54v128h-54z" fill="#F8FAFC"/>
+    <path d="M476 345v196"/><path d="M439 367h72v141h-72z" fill="#00C58A"/>
+    <path d="M583 248v222"/><path d="M548 301h70v132h-70z" fill="#00C58A"/>
+    <path d="M465 324 607 187" stroke-width="18"/>
+    <path d="M563 195 621 177 614 234Z" fill="#061B43" stroke-width="12"/>
+  </g>
+</svg>

@@ -9,7 +9,6 @@ export interface User {
   displayName: string | null;
   avatarUrl: string | null;
   verified: boolean;
-  is_admin: boolean;
 }
 
 const AuthContext = createContext<any>(undefined);
