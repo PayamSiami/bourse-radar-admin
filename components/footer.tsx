@@ -1,4 +1,4 @@
-// components/footer.tsx
+import { cacheLife } from "next/cache";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,8 +6,14 @@ const LINKS = [
     { href: "/", label: "خانه" },
 ];
 
-export function Footer() {
-    const year = new Date().getFullYear();
+async function getCurrentYear() {
+    'use cache';
+    cacheLife('max'); // Cache for as long as possible
+    return new Date().getFullYear();
+}
+
+export async function Footer() {
+    const year = await getCurrentYear();
 
     return (
         <footer className="mt-16 border-t border-app bg-surface">
